@@ -1,0 +1,17 @@
+/_Files of Porject
+/node_modules
+/public/hot
+/public/arquivos_pdf
+/public/imagens
+/public/imagens_suporte
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

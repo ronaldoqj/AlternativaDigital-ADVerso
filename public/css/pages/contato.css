@@ -1,0 +1,81 @@
+/* ============================= Galeria ================================ */
+
+body {
+    background: url('/images/background.jpg') no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-position-y: 50px;
+}
+.box-conteudo { padding: 20px 15px; }
+.title-pages { margin-left: 0; }
+.oportal {
+    font-size: 2em;
+    padding: 2px 12px;
+    color: #005086;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.container-fluid p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+.logo-contato {
+    margin-top: 60px;
+    max-width: 240px;
+}
+
+.box-contato {
+    background-color: #005086;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+}
+
+.box-contato p { color: inherit; }
+
+.form-contato {
+
+}
+
+.labels-input {
+    padding-left: 10px;
+    font-size: 0.9em;
+    margin-bottom: -3px;
+}
+.form-contato { padding: 10px; }
+.form-contato input,
+.form-contato textArea{
+    width: 100%;
+    border-radius: 10px;
+    background-color: white !important;
+    border-color: transparent !important;
+    margin-bottom: 10px;
+    font-size: 0.9em !important;
+    padding-left: 10px !important;
+    padding: 5px;
+}
+.form-contato .btn {
+    margin-top: 10px;
+    border: solid 1px transparent;
+    background-color: #1B2C59 !important;
+    color: inherit;
+    font-size: 1.2em !important;
+    padding: 0;
+    transition: 0.3s ease-out;
+}
+.form-contato .btn:hover {
+    border: solid 1px white !important;
+    transition: 0.3s;
+}
+
+.form-contato .text-area { height: 100px; }
+
+/*
+007DC4
+034EA1
+00183F
+*/

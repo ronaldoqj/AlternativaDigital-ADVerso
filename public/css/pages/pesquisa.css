@@ -1,0 +1,51 @@
+.title-pages { margin-top: 30px; margin-bottom: 30px; }
+#pesquisa-container { margin-top: 40px; margin-bottom: 40px; }
+
+.title-pesquisa {
+  font-size: 2em;
+  color: #005086;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result {
+    font-size: 1em;
+    color: #005086;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.pesquisa-campos { padding-top: 15px; }
+.pesquisa-campos .form input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #E6E6E6;
+    border-color: transparent;
+    margin-bottom: 10px;
+}
+.pesquisa-campos .form .inputs { padding: 7px; }
+.pesquisa-campos .form .btn {
+    border: solid 2px #034EA1;
+    background-color: transparent;
+    color: inherit;
+    font-size: 1.2em;
+}
+
+.img-pesquisa {
+    border: solid 1px black;
+    height: 100px;
+    background-position: center !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+.title-registros-pesquisa { font-size: 1.2em; }
+.title-registros-pesquisa a:hover { text-decoration: underline; }
+
+@media (max-width: 600px)
+{
+    .title-registros-pesquisa { font-size: 1em !important; }
+}

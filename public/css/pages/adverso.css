@@ -1,0 +1,52 @@
+/* ============================= Galeria ================================ */
+
+body {
+    background: url('/images/background.jpg') no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-position-y: 50px;
+}
+/* .revista { margin-top: -160px; margin-bottom: -80px; } */
+.revista .carousel { height: 400px; }
+.oportal {
+    font-size: 2em;
+    padding: 2px 12px;
+    color: #005086;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.container-fluid p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.box-conteudo { padding: 25px 20px; }
+.title-pages { margin-left: 0; }
+
+.oportal { padding: 0; }
+
+
+/* Controls */
+.owl-home-galeria .owl-controls { margin-top: 10px !important; }
+
+
+/* Corrige altura do carrosel */
+.carousel .carousel-item { height: auto; }
+
+
+/* Imagens */
+.img-revista a {
+  width:100%;
+}
+
+.img-revista img {
+    display: block;
+    width: 200px !important;
+    height: 280px !important;
+}
+
+.img-revista a .cover {
+    object-fit: cover;
+}

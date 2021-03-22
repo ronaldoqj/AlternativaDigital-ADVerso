@@ -1,0 +1,302 @@
+/* =========================== Correções do topo =================================== */
+.carousel .banner-social-network ul {
+    margin: 0 0 -10px 0 !important;
+}
+
+.carousel .banner-social-network ul li {
+    margin-left: -8px !important;
+}
+
+.carousel .banner-social-network ul li a {
+    font-size: 1.4em !important;
+}
+
+.carousel .content { background: linear-gradient(to bottom, transparent 12%, rgba(0,24,63,0.7) 0%) !important; }
+
+
+.carousel .box-avatar {
+    width: 50%;
+    float: right;
+}
+
+.carousel .box-avatar .title { float:right; }
+.carousel .box-avatar .title .borda-avatar {
+    border-radius: 60px;
+    border: solid 2px #034EA1;
+    padding: 3px;
+}
+.carousel .box-avatar .title .avatar
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-position: center !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+.carousel .box-avatar .title table td:last-child div {
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.1em;
+}
+.carousel .box-avatar .title table td:last-child p {
+    font-size: 0.55em;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.carousel .box-avatar .title table td:first-child { padding: 0 10px 0 0; font-size: 1.4em; vertical-align: top; }
+.carousel .box-avatar .title table td { padding: 20px 10px 0 0; font-size: 1.4em; vertical-align: bottom; }
+.carousel .box-avatar .title table {
+    width: auto !important;
+    border-collapse: initial !important;
+}
+
+
+/* =========================== Plugin OWL =================================== */
+#owl-colunistas-destaques .item { margin: 0px; margin-left: -1px !important;}
+#owl-colunistas-destaques .item img { display: block; width: 100%; height: auto; }
+.owl-carousel .owl-wrapper-outer { width: 99.5% !important; }
+
+
+/* ============================= Destaques ================================ */
+.colunistas-destaques {
+  position: relative;
+  width: 100%;
+}
+
+
+
+.owl-colunistas-destaques .colunistas-destaques {
+    margin-left: 12px !important;
+}
+.owl-colunistas-destaques .box-avatar {
+    border-right: solid 0px;
+    border-right-color: #bbb;
+}
+
+.owl-colunistas-destaques .box-avatar .borda-avatar {
+    width: 90px;
+    height: 89px;
+    padding: 3px;
+    margin-left: 10px;
+    border: solid 2px #034EA1;
+    border-radius: 60px;
+}
+.owl-colunistas-destaques .box-avatar .avatar
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-position: center !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+
+/* Ronaldo */
+.owl-colunistas-destaques .box-avatar table {
+    margin: 0 auto !important;
+}
+.owl-colunistas-destaques .box-avatar table td:last-child .textos {
+    margin-right: 10px;
+}
+.owl-colunistas-destaques .box-avatar table td:last-child .name {
+    color: #034EA1;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.1em;
+}
+.owl-colunistas-destaques .box-avatar table td:last-child p {
+    font-size: 0.6em;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.owl-colunistas-destaques .box-avatar table td:first-child {
+    /* padding: 0 10px 0 0; */
+    font-size: 1.4em;
+    vertical-align: top;
+}
+.owl-colunistas-destaques .box-avatar table td {
+    /* padding: 20px 10px 0 0; */
+    font-size: 1.4em;
+    vertical-align: bottom;
+}
+.owl-colunistas-destaques .box-avatar table {
+    width: auto !important;
+    border-collapse: initial !important;
+}
+
+.title-outros-colunistas {
+    border: solid 1px #034EA1;;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: transparent;
+    border-radius: 10px;
+    font-size: 1.3em;
+    padding: 2px 12px;
+    width: 200px;
+    color: #034EA1;
+}
+.subtitulo-colunistas { font-size: 0.95em; color: #034EA1; margin: 5px 0 20px; }
+
+.box-content .col { padding: 0; }
+/* Outras colunista */
+.outro {
+    position: relative;
+    height: auto;
+    color: #034EA1;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@media (min-width: 901px) {
+    .outro { height: 490px; }
+}
+@media (min-width: 515px) {
+  .owl-colunistas-destaques .box-avatar table {
+      margin: 0 !important;
+  }
+  .owl-colunistas-destaques .box-avatar {
+      border-right: solid 1px;
+      border-right-color: #bbb;
+  }
+}
+
+@media (min-width: 600px) {
+    .outro-spaco-right { padding-right: 20px !important; }
+    .outro-spaco-left  { padding-left: 20px !important; }
+}
+
+.outro .container-fluid .s12 { padding: 0; }
+.outro .box-colunista { height: 250px; margin-bottom: 20px; }
+.outro .colunista-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.outro .colunista-text { margin-bottom: 30px; }
+.outro .colunista-text ul {
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+.outro .colunista-text ul li {
+    display: inline-block;
+    font-size: 1.5em;
+    padding-left: 0px;
+}
+
+
+.outro .colunista-text li a {
+    border: solid 1px transparent;
+    padding: 10px 6px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    color: #ccc;
+    transition: 0.3s;
+    display: block;
+}
+.outro .colunista-text li a:hover {
+    color: #00183f;
+    text-shadow: 2px 2px 5px #666;
+    border: solid 1px #00183f;
+    transition: 0.6s ease-out;
+}
+
+
+.outro .colunista-text div a { color: #034EA1; }
+.outro .colunista-text div a:hover { text-decoration: underline; }
+.outro .colunista-text .sub-title { margin: -65px 5px 0; }
+.outro .colunista-text table { }
+.outro .colunista-text table tr { border-bottom: 0; }
+.outro .colunista-text table tr td { vertical-align: top; padding-bottom: 5px; }
+.outro .colunista-text table td.td-avatar-info { padding-top: 40px; }
+
+
+
+
+
+
+
+
+/* Outros colunistas */
+
+.outro .colunista-text .borda-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    border: solid 2px #034EA1;
+    padding: 3px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.outro .colunista-text .avatar
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-position: center !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+.outro .avatar-name {
+    float: left;
+    margin-top: 10px;
+    color: #ccc !important;
+}
+
+.outro .redes-sociais { float: right; }
+.outro .colunista-text .title { margin-bottom: 5px; }
+.outro .colunista-text .title a { color: inherit; }
+.outro .colunista-text .title a:hover { text-decoration: underline; }
+.outro .colunista-leiamais {
+    color: #034EA1;
+    width: max-content;
+    padding: 2px 10px;
+    margin-top: 5px;
+    font-size: inherit;
+    border-radius: 8px;
+    border: 1px solid #034EA1;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    border-left-color: transparent !important;
+    transition: 0.3s;
+}
+.outro .colunista-leiamais a { color: inherit; }
+.outro .colunista-leiamais:hover {
+    letter-spacing: 0.1em;
+    transition: 0.3s ease-out;
+    text-shadow: 2px 2px 5px #666;
+}
+
+.title-carregar-mais {
+    border: solid 1px #034EA1;;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: transparent;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 2px 12px;
+    width: 200px;
+    color: #034EA1;
+    margin: 0 auto 30px;
+}
+/*
+007DC4
+034EA1
+00183F
+*/

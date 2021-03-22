@@ -1,0 +1,28 @@
+/* ============================= Galeria ================================ */
+
+body {
+    background: url('/images/background.jpg') no-repeat;
+    background-position: center top;
+    background-size: contain;
+    background-position-y: 50px;
+}
+.oportal {
+    font-size: 2em;
+    padding: 2px 12px;
+    color: #005086;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.container-fluid p {
+    color: #666;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    padding: 5px 15px;
+}
+
+/*
+007DC4
+034EA1
+00183F
+*/

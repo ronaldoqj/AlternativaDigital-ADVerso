@@ -1,0 +1,166 @@
+.especial.box-conteudo { background-color: transparent !important; }
+
+/* =========================== Banner Topo =================================== */
+.box-banner {
+    background-color: black;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner-topo {
+    height: 550px;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .banner-topo {
+    		height: 320px;
+    		transition: 0.3s;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .banner-topo {
+    		height: 250px;
+    		transition: 0.3s;
+    }
+}
+
+.data {
+    clear: both;
+    text-align: right;
+    margin: 0;
+    color: #bbb;
+    padding-top: 0;
+}
+
+.calendario {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: rgba(0,80,134,0.85);
+}
+
+.calendario-vazio td {
+    padding: 15px 0px;
+}
+
+.agenda-padding { padding: 10px; }
+.agenda {
+    color: #666;
+    padding: 25px 15px;
+    margin-top: -160px;
+    border-radius: 10px;
+    padding-bottom: 0;
+    background-color: white;
+}
+
+.title-materia { float: left; margin-bottom: 20px; margin-left: 0; }
+.box-amplia-social {
+    float: right;
+    margin-top: -10px;
+}
+.amplia-fonte { float: left; }
+.amplia-fonte p { text-align: center; margin: 0; }
+.amplia-fonte ul { margin: -10px 0; padding: 0; text-align: center; }
+.amplia-fonte ul li { display: inline-block; }
+.amplia-fonte ul li:first-child a { font-size: 2.3em; }
+.amplia-fonte ul li:first-child a:hover { text-shadow: 2px 2px 5px #666; cursor: pointer; }
+.amplia-fonte ul li:nth-child(2) { font-size: 1.8em; font-weight: bold; }
+.amplia-fonte ul li a { font-size: 2em; font-weight: bold; transition: 0.3s  }
+.amplia-fonte ul li a:hover { text-shadow: 2px 2px 5px #666; transition: 0.3s ease-out; cursor: pointer; }
+
+.agenda .banner-social p { text-align: center; margin: 0 -15px 0px 0; }
+.agenda .banner-social { float: left; margin-left: 20px; }
+.agenda .banner-social ul { margin: 1px -9px -5px 0; }
+.agenda .banner-social ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+.agenda .banner-social ul li:last-child {
+    padding-right: 0;
+}
+.agenda .banner-social ul li a {
+    border: solid 1px transparent;
+    padding: 4px;
+    border-radius: 30px;
+    color: #808080;
+    font-size: 1.6em;
+    transition: 0.3s ease-out;
+}
+.agenda .banner-social ul li:last-child a i {
+    vertical-align: top;
+    padding-top: 6px;
+}
+
+.agenda .banner-social ul li a:hover {
+    color: #005086;
+    border: solid 1px #005086;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.normal .agenda { margin-top: 0 !important; }
+.agenda .banner-texts { color: #005086; float: left; }
+.agenda .banner-texts ul { margin-top: 0; }
+.agenda .banner-texts ul li { font-size: 1em; color: #B3B3B3; }
+.agenda .banner-texts ul li:nth-child(2) {
+    font-size: 3.2em;
+    color: #005086;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    line-height: 1.1em;
+}
+.agenda .banner-texts ul li:nth-child(3) { font-size: 0.95em; margin-bottom: 0px; }
+.agenda .banner-texts ul li:last-child { color: #005086; }
+
+.agenda .img-agenda {
+    height: 630px;
+    width: auto;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.paragrafos p { font-size: 1em; }
+.paragrafos p:first-child { font-size: 1.3em; line-height: 1.3; }
+
+/* Outras agendas */
+.outra {
+    position: relative;
+    height: auto;
+    color: #034EA1;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Somente Mobile */
+@media (max-width: 625px) {
+    .noticia .banner-social ul li { padding-right: 0; }
+    .noticia .banner-social { margin-left: 0; }
+}
+/* Muda a formatação */
+@media (max-width: 540px) {
+    .box-amplia-social { clear: both; }
+    .box-amplia-social { float: none; }
+    .noticia .banner-social { float: right; }
+}
+/* Tablet para cima */
+@media (min-width: 600px) {
+    .outra-spaco-right { padding-right: 20px !important; }
+    .outra-spaco-left  { padding-left: 20px !important; }
+}

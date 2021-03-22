@@ -1,0 +1,14 @@
+/* ============================= Galeria ================================ */
+
+body {
+    background: url('/images/background.jpg') no-repeat;
+    background-position: center top;
+    background-size: contain;
+    background-position-y: 50px;
+}
+
+/*
+007DC4
+034EA1
+00183F
+*/
